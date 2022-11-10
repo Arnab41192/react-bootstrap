@@ -1,0 +1,7 @@
+1. Run npx create-react-app react-bootstrap
+2. Go and check how to install react-bootstrap and bootstrap
+   https://react-bootstrap.github.io/getting-started/introduction
+
+npm install react-bootstrap bootstrap
+
+3. Go to index.js and do the react-bootstrap configuration
