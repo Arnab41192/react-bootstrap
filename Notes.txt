@@ -3,5 +3,11 @@
    https://react-bootstrap.github.io/getting-started/introduction
 
 npm install react-bootstrap bootstrap
+npm install react-bootstrap-icons
 
 3. Go to index.js and do the react-bootstrap configuration
+
+
+//React bootstrap config
+import "../node_modules/react-bootstrap/dist/react-bootstrap.min.js";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";

@@ -1,6 +1,10 @@
+import React from "react"
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
+import SideBar from "./components/SideBar";
+import Grid from "./components/Grid";
+
 
 function App() {
 
@@ -9,9 +13,9 @@ function App() {
   }
   return (
     <div className="App">
-      
-        <h1>HI there</h1>
-        <Button variant="primary" onClick={myfunc}>Click Me</Button>
+  
+      {/* <SideBar/> */}
+      <Grid/>
      
     </div>
   );
