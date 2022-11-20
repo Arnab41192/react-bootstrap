@@ -11,3 +11,12 @@ npm install react-bootstrap-icons
 //React bootstrap config
 import "../node_modules/react-bootstrap/dist/react-bootstrap.min.js";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+
+//Enabe emmet autocomplete
+Got to setting (Left bottom) -> View json version of setting (top write corner) -> Append the below lines
+
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+}

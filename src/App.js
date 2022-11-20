@@ -4,6 +4,7 @@ import './App.css';
 import { Button } from 'react-bootstrap';
 import SideBar from "./components/SideBar";
 import Grid from "./components/Grid";
+import Navbar from "./components/Navbar";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <div className="App">
   
       {/* <SideBar/> */}
-      <Grid/>
+      {/* <Grid/> */}
+       <Navbar/>
      
     </div>
   );
