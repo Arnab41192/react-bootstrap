@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+  margin:0;
+}
+
+.icon-bars{
+    font-family: Calibri, sans-serif;
+    background-color: darkgray;
+    width:100px;
+    height: 100vh;
+     position: relative;
+    top:0;
+    left:0;
+    transform: translateX(-100%);
+    transition: all 0.2s linear;
+}
+
+.show{
+    transform: translateX(0%);
+}
+
+.icon-bars a{
+    display: block;
+    text-align: center;
+    font-size:1.8rem;   
+    padding:1.5rem;
+    color:white;
+    
+}
+
+
+.icon-bars a.active{
+    background-color: seagreen;
+}
+
+.icon-bars a:hover{
+    background-color: black;
+}
+
+.bars{
+    position:absolute;
+    top:20px;
+    left:120px;
+    font-size: 1.8rem;
+    color:grey
+}
+
+.bars:hover{
+     cursor: pointer;
+}
