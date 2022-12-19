@@ -10,6 +10,7 @@ import Table2 from "./components/Table2";
 import ReactBootStrapTableNext from "./components/ReactBootStrapTableNext";
 import MySideBar from "./components/MySideBar";
 import SidebarwithIcons from "./components/SidebarwithIcons";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <Table2/> */}
       {/* <ReactBootStrapTableNext/> */}
       {/* <MySideBar/> */}
-       <SidebarwithIcons/>
+       {/* <SidebarwithIcons/> */}
+       <Footer/>
 
     </div>
   );

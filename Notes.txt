@@ -36,3 +36,13 @@ Build by video : https://www.youtube.com/watch?v=rgY1oPNVgwU
 npm i react-bootstrap-table-next --save --legacy-peer-deps
 
 For pagination I used : npm i react-bootstrap-table2-paginator --save  --legacy-peer-deps
+
+==================================================================================================================
+
+icons
+
+Font awesome provides you some icosn.
+How to use : 
+
+npm i font-awesome
+import 'font-awesome/css/font-awesome.min.css'; (in your index.js)
