@@ -13,9 +13,12 @@ const Navbar = () => {
                  Travel Yaari
               </a>
 
-              {/* <div className="collapse navbar-collapse"> */}
-                <ul className="navbar-nav">
-                  <li className="nav-item px-3">
+               <button className='navbar-toggler' data-bs-toggle="collapse" data-bs-target="#nv-id">
+                <span className='navbar-toggler-icon'></span>
+               </button>
+              <div className="collapse navbar-collapse" id="nv-id">
+                <ul className="navbar-nav ms-auto">
+                  <li className="nav-item ">
                     <a href="#" className="nav-link">
                       Home
                     </a>
@@ -42,7 +45,7 @@ const Navbar = () => {
                   </li>
               
                 </ul>
-              {/* </div> */}
+              </div>
       </div>
     </nav>
 
@@ -68,8 +71,7 @@ const Navbar = () => {
                   </div>
     </section>
 
-    <p className="display-1">Hi There</p>
-
+   
     </>
     
   );

@@ -23,7 +23,7 @@ function App() {
   
       {/* <SideBar/> */}
       {/* <Grid/> */}
-       {/* <Navbar/> */}
+       <Navbar/>
          {/* <BasicTable/> */}
       {/* <Table2/> */}
       {/* <ReactBootStrapTableNext/> */}

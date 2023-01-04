@@ -1,17 +1,18 @@
 import React, { Fragment } from 'react'
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (
 
-     <footer className='bg-dark text-white'>
-        <div className="container p-3">
+     <footer className='bg-teal text-white'>
+        <div className="container py-3">
              <div className="row">
                 <div className="col-md-3">
-                    <h3>Vacations</h3>
+                    <h4 className='py-3'>Vacations</h4>
                     <p className="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad eligendi natus tenetur eaque quod cum velit iusto, quos, voluptates in harum dolorem deserunt, ipsum aliquid. Non cumque illum quasi odit.</p>
                 </div>
                 <div className="col-md-3">
-                    <h3>Information</h3>
+                    <h4 className='py-3'>Information</h4>
                     <p>Adventures</p>
                     <p>Tours</p>
                     <p>Hotels</p>
@@ -21,7 +22,7 @@ const Footer = () => {
                  </div>
 
                  <div className="col-md-3">
-                    <h3>Information</h3>
+                    <h4 className='py-3'>Information</h4>
                     <p>Adventures</p>
                     <p>Tours</p>
                     <p>Hotels</p>
@@ -32,7 +33,7 @@ const Footer = () => {
 
 
                  <div className="col-md-3">
-                    <h2>Address</h2>
+                    <h4 className='py-3'>Address</h4>
                     <p>Flat No 283, Jubilee Hills</p>
                     <p>Pune 411014</p>
 

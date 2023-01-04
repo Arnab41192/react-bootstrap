@@ -59,8 +59,3 @@ npm i --save @fortawesome/react-fontawesome@latest
 import 'font-awesome/css/font-awesome.min.css'; (in your index.js)
 
 now you can use <i 
-
-=============================================================================================================
-
-
-npm i bootstrap @fortawesome/fontawesome-free
